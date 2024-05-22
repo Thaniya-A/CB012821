@@ -628,6 +628,9 @@ bestsellers-div img{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
+    align-items: center;
+    align-content: center;
+
 }
 .membership-div h3{
     text-align: center;
@@ -636,13 +639,14 @@ bestsellers-div img{
 .membership-div div{
     gap: 10px;
     background-color: #d7e3dc;
-    justify-content: center;
-    
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .membership-img{
     height: 250px;
     width: auto;
     margin: 5px;
     align-items: center;
-    justify-content: center;
 }
