@@ -542,6 +542,54 @@ bestsellers-div img{
     text-align: center;
     align-self: center;
 }
+.membership{
+    background-color: black;
+    margin-top: 10px;
+}
+.membership h1{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform:uppercase ;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.membership-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+.membership-div h3{
+    text-align: center;
+    font-size: xx-large;
+    background-color: #21390e;
+    color: white;
+    width: 100%;
+}
+.membership-div div{
+    gap: 10px;
+    background-color: #d7e3dc;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.membership-img{
+    height: 250px;
+    width: auto;
+    margin: 5px;
+    align-items: center;
+}
+.membership-div li{
+    list-style: none;
+    font-size: 120%;
+    margin: 10px;
+    color: rgb(47, 72, 21); 
+}
 .section-register{
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -571,82 +619,9 @@ bestsellers-div img{
 }
 .register-btn{
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color:#007bff;
     color: rgb(255, 255, 255);
     font-size: larger;
     font-weight: bold;
-}
-/* .ly.r-section{
-    font-size: 150%;
-    padding: 20px;
-}
-/* .flexbox-ly.r{
-    display:flex;
-    flex-direction:row ;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    
-
-} 
-#flexbox-ly.r{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 400px;
-    margin-top: 0%;
-    
-    
-}
-#flexbox-ly.r div{
-    height:590px;
-    width:340px;
-    margin:40px;
-    background-color: rgb(12, 62, 29);
-    text-align: center;
-}
-.ly.r-section h3{
-    font-size: 140%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family:'Times New Roman', Times, serif;
-    color: rgb(252, 253, 253);
-    text-decoration: underline;    
-}
-.ly.r-section p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    color: white;
-    margin: 30px;
-}
-.img-ly.r{
-    width:auto;
-    height: 250px;
-} */
-.membership-div{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    align-items: center;
-    align-content: center;
-
-}
-.membership-div h3{
-    text-align: center;
-    font-size: x-large;
-}
-.membership-div div{
-    gap: 10px;
-    background-color: #d7e3dc;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.membership-img{
-    height: 250px;
-    width: auto;
-    margin: 5px;
-    align-items: center;
 }
