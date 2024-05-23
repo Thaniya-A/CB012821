@@ -385,8 +385,8 @@
     flex-wrap: wrap;   
 }
 #flexbox-locations div{
-    width:330px;
     height:auto;
+    width:330px;
     margin:30px;
     margin-right: 0%
     background-color: rgb(12, 62, 29);
