@@ -9,7 +9,7 @@
     position: relative fixed;
     left: 0%;
     /* right:100%; */
-    background-color: rgb(197, 242, 190);
+    background-color: rgb(177, 223, 169);
     z-index: 101;
     width: 100%;
     max-width: 100%;
@@ -681,4 +681,48 @@
     background-color:#489df8;
     color: rgb(255, 255, 255);
     font-size: larger;
+}
+.footer{
+    background-color: rgb(177, 223, 169);
+    display: flex;
+    flex-direction: row;
+}
+.footer-2{
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+}
+.logo-locations-footer{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    margin: 5px;
+
+}
+.logo-footer{
+    height: 100px;
+    width: auto;
+}
+.footer-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media-div{
+    flex: 1;
+    margin: 5px;
+    background-color: none;
+
+}
+.social-media-btn{
+    height: 50px;
+    width: auto;
+    margin: 5px;
+}
+.nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-footer-maing-pgs{
+    flex: 1;
+    
 }
