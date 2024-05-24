@@ -681,50 +681,27 @@
 }
 .footer{
     background-color: rgb(177, 223, 169);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns:190px 900px;
+    /* justify-content: center;
+    align-items: center; */
     height: 100%;
     margin-top: 10px;
     margin-bottom: 0px;
+    gap: 20px;
 }
 .footer-2 img{
     align-self: center;
 }
 .footer-2{
-    display: flex;
-    flex-direction:column;
+    display: grid;
+    grid-template-columns: auto auto;
     width:auto;
     padding: 0;
     margin: 0;
 }
 .logo-locations-footer{
-    display: flex;
-    flex-direction:column;
-    text-align: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-.logo-locations-footer h2{
-    text-align:center;
-    color: #203f08;
-    text-decoration: underline;
-    margin-top: 0px;
-}
-.logo-locations-footer-p{
-    text-decoration: underline;
-    margin-bottom: 5px;
-}
-.logo-locations-footer p{
-    margin-top: 3px;
-    margin-bottom: 8px;
-    margin-right: 0;
-    margin-left: 0;
-    text-align:center;
+    width: auto;
 }
 .logo-footer{
     height: 190px;
@@ -732,47 +709,45 @@
     margin: 0;
     align-self: center;
 }
-.footer-3{
-    display: flex;
-    flex-wrap: wrap;
-}
-.social-media-div{
-    flex: 1;
-    margin:5px;
-    background-color: none;
-    justify-content: flex-end;
-
-}
 .social-media-btn{
     height: 40px;
     width: auto;
     margin: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
-
+    align-items: center;
 }
 .nav-footer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    width: 700px;
+}
+.nav-footer-2{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    width: 1045px;
+    align-items: center;
 }
 .nav-footer-maing-pgs{
-    width:auto;
-    margin: 10px;
-    margin-left: 30px;
-    text-align: left;
+    width:130px;
+    margin: 0px;
+    margin-left: 0px;
+    text-align: center;
     padding: 0;
-
     
 }
-.nav-footer-maing-pgs div{
-    text-align: center;
-}
 .nav-footer-maing-pgs a{
-    text-decoration: none;
+    text-decoration:none;
     color:rgb(21, 61, 28);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0;
+}
+.nav-footer-maing-pgs a:hover{
+    text-decoration: underline;
 }
 .nav-footer-maing-pgs p{
     color:rgb(21, 61, 28);
@@ -780,21 +755,10 @@
     font-weight: bolder;
     font-family:'Times New Roman', Times, serif; 
 }
-.footer-4{
-    display: flex;
-    flex-direction:column;
-    width:260px;
-    padding: 0;
-    margin: 0;
-    margin-left:auto;
-    margin-right:2px;
-    align-items:center ;
-}
 .main-order{
     margin-bottom: 60px;
 }
-
-@media (max-width: 430px) {
+@media (max-width: 430px){
     .header-main-container{
         display:grid;
         grid-template-columns: auto;
@@ -834,7 +798,7 @@
         margin:0;
         text-align: center;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 20px;
    
     }
     .sub-nav a{
@@ -1138,7 +1102,7 @@
     }
     .main-div-vegetables-locations div{
         height: auto;
-        width:360px;
+        width:auto;
         margin-top: 10px;
         margin-bottom: 10px;
         padding: 10px;
@@ -1278,7 +1242,7 @@
         margin-bottom: 10px;
     }
     
-    .logo-locations-footer h2{
+    /* .logo-locations-footer h2{
         text-align:center;
         color: #203f08;
         text-decoration: underline;
@@ -1323,7 +1287,7 @@
         margin-top: 10px;
         margin-bottom: 0px;
         width: 100%;
-    }
+    } */
     .membership{
         background-color: black;
         margin-top: 10px;
@@ -1411,84 +1375,62 @@
     .footer{
         background-color: rgb(177, 223, 169);
         display: grid;
-        flex-direction: row;
+        grid-template-columns:100px 330px;
         justify-content: center;
         align-items: center;
         height: 100%;
         margin-top: 10px;
         margin-bottom: 0px;
-        width: 100%;
-        justify-items: center;
+        gap:0px;
+
     }
     .footer-2 img{
         align-self: center;
     }
     .footer-2{
-        display: flex;
-        flex-direction:column;
+        display: grid;
+        grid-template-columns:100px 330px;
         width:auto;
         padding: 0;
         margin: 0;
-        justify-items: center;
+        align-items: center;
     }
     .logo-locations-footer{
-        display: flex;
-        flex-direction:row;
-        text-align: left;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    
+        width: auto;
     }
-
     .logo-footer{
         height: 100px;
         width: auto;
         margin: 0;
         align-self: center;
     }
-    .footer-3{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .social-media{
-        flex: 1;
-        margin:5px;
-        background-color: none;
-        justify-items: center;
-        width: 100%;
-    
-    }
     .social-media-btn{
-        height: 20px;
+        height: 30px;
         width: auto;
-        margin: 20px;
+        margin: 18px;
         margin-bottom: 10px;
         margin-top: 10px;
-    
+        align-items: center;
     }
     .nav-footer{
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        flex-wrap: wrap;
-        justify-content: left;
-        margin-left: 0%;
-        width: 400px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        width: 200px;
+    }
+    .nav-footer-2{
+        display: flex;
+        justify-content: center;
     }
     .nav-footer-maing-pgs{
-        width:auto;
+        display:none;
+        width:100%;
         margin: 5px;
-        margin-left: 0px;
-        text-align:center;
+        margin-left: 10px;
+        text-align: center;
         padding: 0;
     
         
-    }
-    .nav-footer-maing-pgs div{
-        text-align: center;
-        margin-top:0px;
     }
     .nav-footer-maing-pgs a{
         text-decoration: none;
@@ -1496,19 +1438,16 @@
         font-size: 12px;
         font-weight: bolder;
         font-family:'Times New Roman', Times, serif;
-        margin: 5px;
-        margin-bottom: 5px;
+        text-align: center;
+        width: auto;
     }
-    .nav-footer-maing-pgs p{
-        color:rgb(21, 61, 28);
-        font-size: 18px;
-        font-weight: bolder;
-        font-family:'Times New Roman', Times, serif; 
-    }
-    .footer-4{
-        display: none;
-    }
-  }  
+
+}
+
+
+
+
+
 
 
 
