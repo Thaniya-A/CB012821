@@ -873,15 +873,14 @@
         color: black;
         left: 0%;
         right:0%;
-        display: flex;
         font-family:'Times New Roman', Times, serif ;
         top: 5%;
         bottom: 5%;
-        width: 100%;
+        width:100% ;
     }
     .locations-h1{
         font-size:250%;
-        padding: 20px;
+        padding: 10px;
         border-spacing: 10px;
         margin-bottom: 3px;
         margin-top: 5px;
@@ -895,16 +894,12 @@
         display: flex;
         /* justify-content: space-between; */
         align-items: center;
-        min-height: 400px;
-        margin-top: 0%; 
-        padding-left: auto;  
-        padding-right: auto; 
-        margin-right: 0;
+        /* min-height: 400px; */
+        margin: 0%;
     }
     #flexbox-locations div{
         height:auto;
-        width:420px;
-        margin: 10px;
+        width:370px;
         background-color: rgb(12, 62, 29);
         text-align: center;
     }
@@ -965,19 +960,70 @@
     .table1-tr{
         height: 50px;
         width: auto;
+        font-size: 110%;
+    }
+    .table1-tr td{
+        padding: 10px;
     }
     .table1-tr:nth-child(even){
         background-color: #9cb38ad2;
     
     }
     .tfoot{
-        height: 40px;
+        height: 80px;
         
     }
     .tfoot td {
         font-size: 120%;
         margin: 22%;
         text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .logo-locations-footer h2{
+        text-align:center;
+        color: #203f08;
+        text-decoration: underline;
+        margin-top: 0px;
+        font-size: large;
+    }
+    .logo-locations-footer-p{
+        text-decoration: underline;
+        margin-bottom: 5px;
+    }
+    .logo-locations-footer p{
+        margin-top: 3px;
+        margin-bottom: 8px;
+        margin-right: 0;
+        margin-left: 0;
+        text-align:center;
+    }
+    .footer-4{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        width:auto;
+        padding: 0;
+        margin: 0;
+        margin-left:auto;
+        margin-right:0px;
+        align-items:center ;
+    }
+    .logo-footer{
+        height: 150px;
+        width: auto;
+        margin: 0;
+        align-self: center;
+    }
+    .footer{
+        background-color: rgb(177, 223, 169);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: 180px;
+        margin-bottom: 0px;
     }
   }  
 
