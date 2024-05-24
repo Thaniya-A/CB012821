@@ -795,11 +795,10 @@
 }
 
 @media (max-width: 430px) {
-    .search-box{
-        width: 500px;
-        display: flex;
-        flex-direction:row;
+    .search-box {
         display: none;
+        width: 100%;
+        flex-direction: column;
     }
     .services{
         font-size: 150%;
@@ -849,11 +848,7 @@
         height: 340px;
         width:auto;
     }
-    .search-box {
-        display: none;
-        width: 100%;
-        flex-direction: column;
-    }
+
     .online-shop ol{
         list-style-type: decimal;
         padding: 3px;
