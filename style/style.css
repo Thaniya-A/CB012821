@@ -201,6 +201,116 @@
 .online-shop li{
     margin-bottom: 25px;
 }
+.section-locations{
+    margin-top: 20px;
+    background-color: rgb(143, 195, 118);
+    color: black;
+    left: 0%;
+    right:0%;
+    display: flex;
+    font-family:'Times New Roman', Times, serif ;
+    top: 5%;
+    bottom: 5%;
+}
+.locations-h1{
+    font-size:250%;
+    padding: 20px;
+    border-spacing: 10px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.services{
+    font-size: 150%;
+    padding: 20px;
+}
+    
+#flexbox-locations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+    margin-top: 0%; 
+    flex-wrap: wrap;   
+}
+#flexbox-locations div{
+    height:auto;
+    width:380px;
+    margin:30px;
+    margin-right: 0%;
+    background-color: #192d08;        
+    text-align: center;
+}
+#flexbox-locations div li{
+    font-size: 140%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 245, 245);
+    list-style-type: none;
+}
+#flexbox-locations div h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: underline;
+}
+.img-locations{
+    width:auto;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.maps_branches{
+    height: 280px;
+    width: 280px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.maps_branches:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px white;
+}
+.branch-info{
+    color: white;
+    font-size: 18px;
+}
+.services-table{
+    color: white;
+    background-color: #21390e;
+    height: 350px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.table1{
+    text-align: center;
+    background-color: #d7e3dc;
+    color: black;
+    width: 100%; 
+}
+.services-table h1{
+    margin: 20px auto;
+    text-align: center; 
+    font-size: 240%;  
+    
+}
+.table1-tr{
+    height: 50px;
+    width: auto;
+}
+.table1-tr:nth-child(even){
+    background-color: #9cb38ad2;
+
+}
+.tfoot{
+    height: 40px;
+    
+}
+.tfoot td {
+    font-size: 120%;
+    margin: 22%;
+    text-align: center;
+}
 .dairy-products h1{
     text-align: center;
     color: wheat;
@@ -354,116 +464,7 @@
 .add-to-cart-grid:hover{
     box-shadow: 0 0 10px#203f08;
 }
-.section-locations{
-    margin-top: 20px;
-    background-color: rgb(143, 195, 118);
-    color: black;
-    left: 0%;
-    right:0%;
-    display: flex;
-    font-family:'Times New Roman', Times, serif ;
-    top: 5%;
-    bottom: 5%;
-}
-.locations-h1{
-    font-size:250%;
-    padding: 20px;
-    border-spacing: 10px;
-    margin-bottom: 3px;
-    margin-top: 5px;
-}
-.services{
-    font-size: 150%;
-    padding: 20px;
-}
-    
-#flexbox-locations{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 400px;
-    margin-top: 0%; 
-    flex-wrap: wrap;   
-}
-#flexbox-locations div{
-    height:auto;
-    width:380px;
-    margin:30px;
-    margin-right: 0%;
-    background-color: #192d08;        
-    text-align: center;
-}
-#flexbox-locations div li{
-    font-size: 140%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(232, 245, 245);
-    list-style-type: none;
-}
-#flexbox-locations div h1{
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-decoration: underline;
-}
-.img-locations{
-    width:auto;
-    height: 250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.maps_branches{
-    height: 280px;
-    width: 280px;
-    margin: 10px;
-    margin-bottom: 20px;
-}
-.maps_branches:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 0 10px white;
-}
-.branch-info{
-    color: white;
-    font-size: 18px;
-}
-.services-table{
-    color: white;
-    background-color: #21390e;
-    height: 350px;
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.table1{
-    text-align: center;
-    background-color: #d7e3dc;
-    color: black;
-    width: 100%; 
-}
-.services-table h1{
-    margin: 20px auto;
-    text-align: center; 
-    font-size: 240%;  
-    
-}
-.table1-tr{
-    height: 50px;
-    width: auto;
-}
-.table1-tr:nth-child(even){
-    background-color: #9cb38ad2;
 
-}
-.tfoot{
-    height: 40px;
-    
-}
-.tfoot td {
-    font-size: 120%;
-    margin: 22%;
-    text-align: center;
-}
 .skincare-phone{
     display: none;
 }
@@ -758,7 +759,7 @@
 .main-order{
     margin-bottom: 60px;
 }
-@media (max-width: 430px){
+@media (max-width:430px){
     .header-main-container{
         display:grid;
         grid-template-columns: auto;
@@ -1242,52 +1243,6 @@
         margin-bottom: 10px;
     }
     
-    /* .logo-locations-footer h2{
-        text-align:center;
-        color: #203f08;
-        text-decoration: underline;
-        margin-top: 0px;
-        font-size: large;
-    }
-    .logo-locations-footer-p{
-        text-decoration: underline;
-        margin-bottom: 5px;
-    }
-    .logo-locations-footer p{
-        margin-top: 3px;
-        margin-bottom: 8px;
-        margin-right: 0;
-        margin-left: 0;
-        text-align:center;
-    }
-    .footer-4{
-        display: flex;
-        flex-direction:column;
-        flex-wrap: wrap;
-        width:100%;
-        padding: 0;
-        margin: 0;
-        margin-left:auto;
-        margin-right:0px;
-        align-items:center ;
-    }
-    .logo-footer{
-        height: 150px;
-        width: auto;
-        margin: 0;
-        align-self: center;
-    }
-    .footer{
-        background-color: rgb(177, 223, 169);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        width: 100%;
-    } */
     .membership{
         background-color: black;
         margin-top: 10px;
@@ -1421,6 +1376,12 @@
     .nav-footer-2{
         display: flex;
         justify-content: center;
+    }
+    .nav-footer-2{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        align-items: center;
     }
     .nav-footer-maing-pgs{
         display:none;
