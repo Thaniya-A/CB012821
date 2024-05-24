@@ -171,6 +171,7 @@
 .online-shop-div{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .onlone-shop-div div{
     margin: 40px;
@@ -794,10 +795,77 @@
 }
 
 @media (max-width: 430px) {
+    .search-box{
+        width: 500px;
+        display: flex;
+        flex-direction:row;
+        display: none;
+    }
+    .services{
+        font-size: 150%;
+        padding: 20px;
+    }
+    .flexbox.services{
+        display:flex;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    #flexbox-services{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        min-height: 400px;
+        margin-top: 0%;
+        overflow: hidden;
+        flex-wrap: wrap;    
+    }
+    #flexbox-services div{
+        height:590px;
+        width:339px;
+        margin:35px;
+        background-color: rgb(12, 62, 29);
+        text-align: center;
+    }
+    .services-section h3{
+        font-size: 140%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(252, 253, 253);
+        text-decoration: underline;    
+    }
+    .services-section p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: white;
+        margin: 30px;
+    }
+    .online-shop img{
+        align-items: center;
+        height: 340px;
+        width:auto;
+    }
     .search-box {
         display: none;
-      width: 100%;
-      flex-direction: column;
+        width: 100%;
+        flex-direction: column;
+    }
+    .online-shop ol{
+        list-style-type: decimal;
+        padding: 3px;
+        font-size: 120%;
+        color: rgb(233, 244, 244);
+        margin-left:10%;
+        padding: 10px;
+        text-align: center;
+    }
+    .online-shop li{
+        margin-bottom: 25px;
+
     }
     .skincare{
         background-color: rgb(0, 0, 0);
@@ -1002,7 +1070,7 @@
         display: flex;
         flex-direction:column;
         flex-wrap: wrap;
-        width:auto;
+        width:100%;
         padding: 0;
         margin: 0;
         margin-left:auto;
@@ -1024,6 +1092,7 @@
         height: 100%;
         margin-top: 180px;
         margin-bottom: 0px;
+        width: 100%;
     }
   }  
 
