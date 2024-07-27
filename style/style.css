@@ -77,6 +77,23 @@
 .navigation-bar{
     margin-bottom:15px;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#f9f9f9 ;
+    min-width: 160px;
+
+}
+.dropdown-content li{
+    display:block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 .mainimg{
     height: auto;
     width: 100%;
