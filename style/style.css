@@ -5,7 +5,7 @@
 }
 .header-main-container{
     display:flex;
-    grid-template-columns: 150px 1fr;
+    /* grid-template-columns: 150px 1fr; */
     position: relative fixed;
     left: 0%;
     /* right:100%; */
@@ -13,15 +13,18 @@
     z-index: 101;
     width: 100%;
     /* max-width: 100%; */
+    padding-bottom: 0%;
 
 }
 .image-container{
     /* width:100%; */
     left: 0%;
+    margin-bottom:0% ;
     /* right: 100%; */
 }
 .logo{
     width:150px;
+    margin-bottom: 0%;
 }
 .right-section{
     margin-top: 30px;
@@ -50,6 +53,10 @@
     border: none;
     outline: none;
     cursor: pointer;
+    background-color:white;
+}
+.search-button img{
+    width: 30px;
 }
 
 
@@ -86,7 +93,7 @@
     display: none;
     position: absolute;
     background-color:#f9f9f9 ;
-    width: 200px;
+    width: 220px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -98,7 +105,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
+    width: 200px;
     margin: 7.5px;
     padding: 2px;
     background-color:rgb(177, 223, 169);
@@ -110,6 +117,16 @@
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+.buttons{
+    display: flex;
+}
+.buttons div{
+    width: 100px;
+}
+.buttons img{
+    width: 40px;
+    margin-top: 50%;
 }
 .mainimg{
     height: auto;
@@ -828,29 +845,55 @@
 .footer-column ul li a:hover{
     color:#a8c936
 }
+/* .social-link{
+    display: none;
+} */
 .socail-media{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-/* .socail-media a{
-    display: inline-block;
-    transition: transform 0.3s;
+.social-link{
+    color:  #1D2E28;
 }
-.socail-media a:hover{
+.social-media-btn:hover{
     transform: scale(1.1);
-} */
+}
 .social-media-btn{
     width: 40px;
     height: 40px;
     margin: 10px;
 }
+
 .logo-footer{
-    width:150px
+    width:150px;
+    margin-top: 50%;
 }
 
 .main-order{
     margin-bottom: 60px;
+}
+.cart{
+    background-color: black;
+}
+.cart-div-main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cart-div-sub{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+.cart-div-sub div{
+    border: white 1px solid;
+    margin: 20px;
+    height: 120px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
 }
 @media (max-width:430px){
     .header-main-container{
