@@ -57,12 +57,14 @@
         <section class="cart">
             <div class="cart-div-main">
                 <div class="cart-div-sub">
-                    <div>
-                        <h3>Dairy Products</h3>
-                        <label for="dairy-dropdown">Select the product:</label>
+                    <div class="orderContainer">
+                        <h1>Dairy Products</h1>
+                        
+                        <label for="options">Select the product:</label>
                         <br>
                         <br>
-                        <select id="dairy-dropdown">
+                        <select id="options">
+                            <option value="hi">Select a product</option>
                             <option value="Kotmale Cheese Wedges 120g">Kotmale Cheese Wedges 120g</option>
                             <option value="Kotmale Swiss Type Cheese 200g">Kotmale Swiss Type Cheese 200g</option>
                             <option value="Kotmale Processed Cheese Paneer 200g">Kotmale Processed Cheese Paneer 200g</option>
@@ -73,13 +75,21 @@
                             <option value="Kotmale Full Cream Chocolate 1L">Kotmale Full Cream Chocolate 1L</option>
 
                         </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
                     </div>
-                    <div>
-                        <h3>Vegetabes</h3>
-                        <label for="vegetables-dropdown">Select the product:</label>
+                    <div class="orderContainer">
+                        <h1>Vegetabes</h1>
+                        <label for="options">Select the product:</label>
                         <br>
                         <br>
-                        <select id="dairy-dropdown">
+                        <select id="options">
+                            <option value="hi">Select a product</option>
                             <option value="Pre-Packed Garlic">Pre-Packed Garlic</option>
                             <option value="Cucumber">Cucumber</option>
                             <option value="Red Onions">Red Onions</option>
@@ -90,13 +100,22 @@
                             <option value="Green Cucumber">Green Cucumber</option>
 
                         </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
                     </div>
-                    <div>
-                        <h3>Meat and Seafood</h3>
-                        <label for="meat-dropdown">Select the product:</label>
+                    <div class="orderContainer">
+                        <h1>Meat and Seafood</h1>
+                        
+                        <label for="options">Select the product:</label>
                         <br>
                         <br>
-                        <select id="dairy-dropdown">
+                        <select id="options">
+                            <option value="hi">Select a product</option>
                             <option value="Chicken Full Breast Skinless">Chicken Full Breast Skinless</option>
                             <option value="Aust. Beef">Aust. Beef</option>
                             <option value="Bone In Curry PorkPork Leg Bone In">Bone In Curry PorkPork Leg Bone In</option>
@@ -107,15 +126,50 @@
                             <option value="Thalapath Small">Thalapath Small</option>
 
                         </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
                     </div>
+                    
                 </div>
                 <div class="cart-div-sub">
-                    <div>
-                        <h3>Bakery Items</h3>
-                        <label for="vegetables-dropdown">Select the product:</label>
+                    <div class="orderContainer">
+                        <h1>Fruits</h1>
+                        <label for="options">Select the product:</label>
                         <br>
                         <br>
-                        <select id="dairy-dropdown">
+                        <select id="options">
+                            <option value="hi">Select a product</option>
+                            <option value="Avocado">Avocado</option>
+                            <option value="Apple-Red">Apple-Red</option>
+                            <option value="Apple-Green">Apple-Green</option>
+                            <option value="Kiwi Fruits">Kiwi Fruits</option>
+                            <option value="Pineapple">Pineapple</option>
+                            <option value="Dragon Fruit (Pitaya)">Dragon Fruit (Pitaya)</option>
+                            <option value="Mandarin Imported">Mandarin Imported</option>
+                            <option value="Melon - Red Fantasy">Melon - Red Fantasy</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    </div>
+                    <div class="orderContainer">
+                        <h1>Bakery Items</h1>
+                        
+                        <label for="options">Select the product:</label>
+                        <br>
+                        <br>
+                        <select id="options">
+                            <option value="hi">Select a product</option>
                             <option value="Motha Baking Powder 100g">Motha Baking Powder 100g</option>
                             <option value="Anods Cocoa/Dark Choco Chips 250g">Anods Cocoa/Dark Choco Chips 250g</option>
                             <option value="Mauri Gelatine 50g">Mauri Gelatine 50g</option>
@@ -125,27 +179,28 @@
                             <option value="Nestle Milkmaid 510g">Nestle Milkmaid 510g</option>
                             <option value="Maurimix Pizza Mix 350g">Maurimix Pizza Mix 350g</option>
 
-                        </select> 
-                    </div>
-                    <div>
-                        <h3>Vegetabes</h3>
-                        <label for="vegetables-dropdown">Select the product:</label>
-                        <br>
-                        <br>
-                        <select id="dairy-dropdown">
-                            <option value="Pre-Packed Garlic">Pre-Packed Garlic</option>
-                            <option value="Cucumber">Cucumber</option>
-                            <option value="Red Onions">Red Onions</option>
-                            <option value="Plantain Flower">Plantain Flower</option>
-                            <option value="Sweet Potato">Sweet Potato</option>
-                            <option value="Kohila">Kohila</option>
-                            <option value="Batana">Batana</option>
-                            <option value="Green Cucumber">Green Cucumber</option>
-
                         </select>
-                    </div>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity"> 
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    
                 </div>
+               
             </div>
+            <div class="cart-table-container">
+
+            </div>
+            <div class="buttons-cart">
+                <div><button class="add-to-fav">Add Cart to Favourites</button></div>
+                <div><button class="remove-fav">Remove Favourites</button></div>
+                <div><button class="load-fav">Add Favourites</button></div>
+                <div><button class="Buy Now">Buy Now</button></div>
+            </div>
+
         </section>
     </main>
     <footer>
@@ -217,5 +272,6 @@
 
         SPAR Sri Lanka. (n.d.). Welcome to SPAR Sri Lanka ONLINE! [online] Available at: https://www.spar.lk/. -->
 </footer>
+<script type="module" src="../scripts/functions.js"></script>
 </body>
 </html>
